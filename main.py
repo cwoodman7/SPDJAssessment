@@ -6,8 +6,6 @@ import scipy.optimize as sco
 from functools import partial
 from itertools import groupby
 
-"""Imported data is sorted by date"""
-
 
 def main():
     data = utils.load_data('Python assessment', 'Start Universe')
